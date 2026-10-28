@@ -1,0 +1,14 @@
+object MainForm: TMainForm
+  Left = 120
+  Height = 860
+  Top = 80
+  Width = 1560
+  Caption = 'Hex Background'
+  Color = clBlack
+  DoubleBuffered = True
+  KeyPreview = True
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+end
