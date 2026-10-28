@@ -1,0 +1,13 @@
+object FlightForm: TFlightForm
+  Left = 200
+  Height = 720
+  Top = 120
+  Width = 1280
+  Caption = 'HexFlight'
+  Color = clBlack
+  KeyPreview = True
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+end
