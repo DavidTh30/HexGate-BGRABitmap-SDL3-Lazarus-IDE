@@ -1,0 +1,14 @@
+object GateForm: TGateForm
+  Left = 200
+  Height = 720
+  Top = 120
+  Width = 1280
+  Caption = 'HexGate'
+  Color = clBlack
+  KeyPreview = True
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+end

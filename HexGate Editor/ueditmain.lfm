@@ -1,0 +1,11 @@
+object EditorForm: TEditorForm
+  Left = 160
+  Height = 820
+  Top = 100
+  Width = 1440
+  Caption = 'HexGate Editor'
+  Position = poScreenCenter
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+end
